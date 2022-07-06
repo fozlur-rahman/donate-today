@@ -189,9 +189,23 @@ p{
 
 .subscribe-are{
     background: #FFF4D6;
-    padding: 100px;
+    padding: 75px;
+    margin-top: 30px;
 }
 .subscribe-are input{
-    padding: 10px 40px;
+    padding: 15px 40px;
     font: 16px;
+    font-weight: 400;
+    border: 0px;
+
 }
+.imput-field{
+    background: #D9D9D9;
+    margin-right: -10px;
+}
+.input-btn{
+    background: #FF5959;
+    color: whitesmoke;
+
+}
+/* update section  */
