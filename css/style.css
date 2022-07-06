@@ -174,6 +174,40 @@ p{
 }
 /* contribute-section */
 
+/* flooder section  */
+#flooded-areas {
+    margin: 100px 0px;
+    text-align: center;
+    background: rgb(214, 213, 213);
+    padding: 50px;
+}
+#flooded-areas h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+.flooded{
+    width: 60%;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.area{
+    width: 100%;
+    background: #EDF5F6;
+    border: 0;
+    border-radius: 5px;
+    padding: 0px 25px;
+    margin: 55px 10px; 
+}
+.area h4{
+color: #FF5959;
+}
+
+/* floodded areas  */
+
+
 /* update section  */
 
 #update-section{
