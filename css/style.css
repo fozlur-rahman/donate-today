@@ -18,6 +18,7 @@ button{
 p{
     font-size: 18px;
     line-height: 28px;
+    color: #707070;
 }
 
 /* header section css  */
@@ -52,4 +53,123 @@ p{
 
 
 /* <!-- donate amount section  css  */
+#donate-amount {
+    margin: 100px 0px;
+    text-align: center;
+}
+#donate-amount h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
 
+}
+.amount-options{
+    width: 60%;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.option{
+    background: #FAFAFA;
+    border: 0;
+    border-radius: 5px;
+    padding: 0px 25px;
+    margin: 55px 10px; 
+}
+.option-two{
+    border: 2px solid #FF5959;
+    background: rgb(223, 182, 182);
+}
+.option h3 {
+    font-size: 30px;
+
+}
+.custom-amount input{
+    border: 0;
+    border-bottom: 1px solid #B3B3B3;
+    color: #B3B3B3;
+    text-align: center;
+    width: 60%;
+    font-size: 18px;
+    margin: 25px auto;
+    padding: 10px 0;
+}
+/* donate amount section  css end  */
+
+/* <!-- donate plane section  --> */
+
+#donate-plan-section{
+    margin: 100px 0;
+    text-align: center;
+
+}
+#donate-plan-section h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.donate-plane-items{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.plane-item{
+    margin: 0px 22px; 
+    padding: 35px 20px;
+
+}
+.plane-item h2 {
+    font-size: 24px;
+}
+.plane-item p{
+    font-size: 16px;
+}
+.frist-plane{
+    background: #EDF5F6;
+}
+.second-plane{
+    background: #FFEEEE;
+}
+.thrid-plane{
+    background: #FFF4D6;
+}
+
+/* <!-- donate plane section  --> */
+
+
+/* contribute-section */
+
+#contribute-section{
+    width: 80%;
+    margin: 100px auto;
+}
+.contribute-item{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0;
+}
+
+.contribute-text{
+    width: 50%;
+    margin-right: 100px;
+}
+.contribute-text h1{
+    font-size: 45px;
+}
+.contribute-image{
+    width: 50%;
+}
+.contribute-image img{
+    width: 450px;
+    height: 480px;
+    border-radius: 5px;
+}
+
+.contribute-item-two .contribute-text{
+    margin-left: 100px;
+}
+/* contribute-section */
